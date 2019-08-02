@@ -6,21 +6,14 @@ import { StaticQuery, graphql } from 'gatsby'
 import '../assets/scss/main.scss'
 
 const Layout = ({ children, location }) => {
-
-  let content;
+  let content
 
   if (location && location.pathname === '/') {
-    content = (
-      <div>
-        {children}
-      </div>
-    )
+    content = <div>{children}</div>
   } else {
     content = (
       <div id="wrapper" className="page">
-        <div>
-          {children}
-        </div>
+        <div>{children}</div>
       </div>
     )
   }
@@ -45,7 +38,7 @@ const Layout = ({ children, location }) => {
               { name: 'keywords', content: 'sample, something' },
             ]}
           >
-            <html lang="en" />
+            <html lang="fr" />
           </Helmet>
           {content}
         </>
