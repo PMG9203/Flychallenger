@@ -123,7 +123,13 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form name="contact" method="post" data-netlify="true" action="#">
+          <form
+            name="contact"
+            method="post"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
+            action="#"
+          >
             <div className="field half first">
               <label htmlFor="name">Nom</label>
               <input type="text" name="name" id="name" />
