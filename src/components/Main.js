@@ -143,7 +143,9 @@ class Main extends React.Component {
             </div>
             <ul className="actions">
               <li>
-                <input type="submit" value="Send Message" className="special" />
+                <button type="submit" className="special">
+                  send message
+                </button>
               </li>
               <li>
                 <input type="reset" value="Reset" />
