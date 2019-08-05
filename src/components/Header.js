@@ -52,7 +52,7 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            Nous
+            Blog
           </a>
         </li>
         <li>
