@@ -127,8 +127,7 @@ class Main extends React.Component {
             name="contact"
             method="post"
             data-netlify="true"
-            netlify-honeypot="bot-field"
-            // action="#"
+            data-netlify-honeypot="bot-field"
           >
             <div className="field half first">
               <label htmlFor="name">Nom</label>
@@ -158,7 +157,10 @@ class Main extends React.Component {
               </a>
             </li> */}
             <li>
-              <a href="#" className="icon fa-facebook">
+              <a
+                href="https://www.facebook.com/remi.paramontor"
+                className="icon fa-facebook"
+              >
                 <span className="label">Facebook</span>
               </a>
             </li>
