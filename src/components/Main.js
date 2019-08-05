@@ -30,13 +30,13 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">L'asso.</h2>
+          <h2 className="major">L'association</h2>
           <span className="image main">
             <img src={pic01} alt="paramoteur bi-place" />
           </span>
           <p>
             Profondément ancrer dans notre région de l'Allier, FLYCHALLENGER est
-            créée par philippe Jorgeaguet en 1987 (invention du paramoteur) Ce
+            créée par philippe Jorgeaguet en 1992 (invention du paramoteur) Ce
             sport jeune obtient ses lettres de noblesse grâce à sa communauté de
             passionés. Aujourd'hui la France est la nation la plus titrée dans
             ce sport avec les champions du monde : Alexandre & Marie MATEOS
@@ -58,7 +58,7 @@ class Main extends React.Component {
             comportements, ainsi qu'aux bienfaits de ce genre d'experiences sur
             ce public. Les résultats sont tout simplement fantastique, tant d'un
             point de vue physiologique que physique. Pour les pilotes, il s'agit
-            d'une tout autre façon de voler ! Sensations garanties !
+            d'une toute autre façon de voler ! Sensations garanties !
           </p>
           {close}
         </article>
