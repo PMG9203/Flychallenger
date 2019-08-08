@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 
-const Success = () => (
+const success = () => (
   <Layout>
     <h1>contact form success</h1>
     <p>Welcome to page success</p>
@@ -11,4 +11,4 @@ const Success = () => (
   </Layout>
 )
 
-export default Success
+export default success

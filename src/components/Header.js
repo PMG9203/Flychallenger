@@ -26,44 +26,73 @@ const Header = props => (
     <nav>
       <ul>
         <li>
-          <a
+          <button
+            onClick={() => {
+              props.onOpenArticle('intro')
+            }}
+          >
+            L'asso.
+          </button>
+
+          {/* <a
             href="javascript:;"
             onClick={() => {
               props.onOpenArticle('intro')
             }}
           >
             L'asso.
-          </a>
+          </a> */}
         </li>
         <li>
-          <a
+          <button
+            onClick={() => {
+              props.onOpenArticle('work')
+            }}
+          >
+            Voler
+          </button>
+          {/* <a
             href="javascript:;"
             onClick={() => {
               props.onOpenArticle('work')
             }}
           >
             Voler
-          </a>
+          </a> */}
         </li>
         <li>
-          <a
+          <button
+            onClick={() => {
+              props.onOpenArticle('about')
+            }}
+          >
+            Blog
+          </button>
+          {/* <a
             href="javascript:;"
             onClick={() => {
               props.onOpenArticle('about')
             }}
           >
             Blog
-          </a>
+          </a> */}
         </li>
         <li>
-          <a
+          <button
+            onClick={() => {
+              props.onOpenArticle('contact')
+            }}
+          >
+            Contact
+          </button>
+          {/* <a
             href="javascript:;"
             onClick={() => {
               props.onOpenArticle('contact')
             }}
           >
             Contact
-          </a>
+          </a> */}
         </li>
       </ul>
     </nav>
