@@ -6,14 +6,12 @@ import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import _Le_handicap_ne_peut_pas_etre_un_handicap_ from '../images/_Le_handicap_ne_peut_pas_etre_un_handicap_.png'
 
-// rajout pour formulaire
 import { navigate } from 'gatsby-link'
 function encode(data) {
   return Object.keys(data)
     .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
     .join('&')
 }
-// Fin rajout formulaire
 
 class Main extends React.Component {
   // debut du code pour envoie formulaire contact
@@ -40,7 +38,6 @@ class Main extends React.Component {
       .then(() => navigate(form.getAttribute('action')))
       .catch(error => alert(error))
   }
-  // fin du code pour envoie formulaire contact
 
   render() {
     let close = (
@@ -159,14 +156,13 @@ class Main extends React.Component {
         >
           <h2 className="major">Contact</h2>
           <form
-            name="contact_P"
+            name="contact_site_Fly_Challenger"
             method="post"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
             action="/success"
             onSubmit={this.handleSubmit}
           >
-            {/* rajout form */}
             {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
             <input type="hidden" name="form-name" value="contact" />
             <div hidden>
@@ -175,7 +171,7 @@ class Main extends React.Component {
                 <input name="bot-field" onChange={this.handleChange} />
               </label>
             </div>
-            {/* fin rajout form */}
+
             <div className="field half first">
               <label htmlFor="name">Nom</label>
               <input
