@@ -124,7 +124,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Contact</h2>
           <form
-            name="contact_P"
+            name="contact"
             method="post"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
